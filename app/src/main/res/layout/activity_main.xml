@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="2"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -22,7 +23,7 @@
             android:background="#f20"
             android:text="A"
             android:gravity="center"
-            android:textSize="25sp"
+            android:textSize="20sp"
             />
         <TextView
             android:layout_width="match_parent"
@@ -31,7 +32,7 @@
             android:background="#FFC107"
             android:text="B"
             android:gravity="center"
-            android:textSize="25sp"
+            android:textSize="20sp"
             />
         <TextView
             android:layout_width="match_parent"
@@ -40,7 +41,7 @@
             android:background="#2196F3"
             android:text="C"
             android:gravity="center"
-            android:textSize="25sp"
+            android:textSize="20sp"
             />
         <TextView
             android:layout_width="match_parent"
@@ -49,7 +50,7 @@
             android:background="#074DFF"
             android:text="D"
             android:gravity="center"
-            android:textSize="25sp"
+            android:textSize="20sp"
             />
     </LinearLayout>
     <LinearLayout
